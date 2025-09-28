@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/home.jpg');
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #198754 !important; /* Bootstrap success color */
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+}
